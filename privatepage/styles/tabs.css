@@ -1,0 +1,30 @@
+/* #content { */
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #555;
+}
+
+ul{
+  line-height: 1.5;
+}
+
+h2 {
+  color: #333;
+}
+
+#controls {
+  /* margin-bottom: 1.5em; */
+}
+
+.controls-selections {
+  /* margin-bottom: 1.5em; */
+}
+
+.container div ul li a {
+	color: #444 !important;
+}
+
+
