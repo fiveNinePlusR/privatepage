@@ -18,8 +18,14 @@ function getInfoForTab(tabs) {
 
 function openPrivateWindow(tab) {
     if (tab.url) {
+      let url = tab.url;
+
+      if (url.includes("washingtonpost")) {
+        url = url.replace(/\?.*$/, "");
+      }
+
       chrome.windows.create({
-        "url": tab.url,
+        "url": url,
         "incognito": true
       });
       return;
